@@ -1,0 +1,52 @@
+.hea_p{
+    background-color: #1a081f;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    color: #ebdfcc;
+    height: 100px;
+}
+
+.h1{
+    font-size: 30px;
+    font-family: 'Times New Roman';
+}
+.icon{
+    width:100px;
+    height: 100px;
+    opacity: 30%;
+    display: flex;
+    justify-content: flex-start;
+}
+.icon:hover{
+    opacity: 100%;
+    transition: 1.5s;
+}
+
+.naveg{
+    display: flex;
+    list-style: none;
+}
+
+.naveg li{
+    margin-right: 20px;
+}
+
+
+
+.naveg a:hover{
+    font-size: 1.5rem;
+    color: rgb(249, 83, 255);
+    transition:0.8s;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.naveg a{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

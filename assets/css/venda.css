@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hea_p{
+    background-color: #fecea8;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    color: #ebdfcc;
+    height: 100px;
+}
+
+.h1{
+    font-size: 42px;
+    font-family: 'Times New Roman';
+    color: black;
+}
+.icon{
+    width:100px;
+    height: 100px;
+    opacity: 30%;
+    display: flex;
+    justify-content: flex-start;
+    transition: 1.5s;
+}
+.icon:hover{
+    opacity: 100%;
+    transition: 1.5s;
+}
+
+.naveg{
+    display: flex;
+    list-style: none;
+    transition: 1.5s;
+}
+
+.naveg li{
+    margin-right: 20px;
+}
+
+
+
+.naveg a:hover{
+    font-size: 1.5rem;
+    color: #e84a5f;
+    transition:0.8s;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.naveg a{
+    text-decoration: none;
+    color: #2a363b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 1.5s;
+}
+
+.cont{
+    background-color: #ffffc0;
+}
+.catalogo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 400px;
+    
+}
+
+.imgs{
+    display: flex;
+    justify-content:space-between;
+    height: 300px;
+    width: 300px;
+    margin: 0px 0px 0px 590px;
+}
+
+.produto{
+    margin: 20px;
+    background-color: #d6c496;
+    border-radius: 10px;
+}
+
+.produto img{
+    height: 150px;
+    width: 150px;
+}
+
+.catalogo button{
+    font-family: 'Times New Roman';
+    
+    background-color:#d46868;
+}
+
+#b1{
+    width: 150px;
+}
+
+#b2{
+    width: 170px;
+}
+
+#b3{
+    width: 160px;
+}
+
+.produto p {
+    background-color: #d6c496;
+    
+    color: #ffffc0;
+    font-family: 'Times New Roman';
+    padding: 5px 10px;
+}
+
+
